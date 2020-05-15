@@ -1,3 +1,27 @@
+/*letras*/
+
 * {
     font-family: Comfortaa;
+}
+
+
+/*competências*/
+
+.competencia {
+    width: 100%;
+    max-width: 70px;
+    min-height: 70px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.cor {
+    color: #2f2f2f;
+}
+
+
+/*footer*/
+
+footer {
+    background-color: black;
 }
