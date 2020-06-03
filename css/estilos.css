@@ -217,3 +217,18 @@ footer {
     width: 100%;
     background: url('../img/projetos_ind/bodas/mock.png') center;
 }
+
+.fundo{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    background: rgba(187, 211, 240, 0.5); 
+}
+
+.peso{
+        font-weight: 800;
+        font-size: 40px;
+}
