@@ -13,10 +13,12 @@
     min-height: 70px;
     background-repeat: no-repeat;
     background-size: contain;
+    display: block;
+    margin: auto;
 }
 
 .cor {
-    color: #2f2f2f;
+    color: #1c1e20;
 }
 
 
@@ -24,4 +26,194 @@
 
 footer {
     background-color: black;
+}
+
+
+/*imgs grid*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+
+/*slider*/
+
+.blog .carousel-indicators {
+    left: 0;
+    top: 110%;
+}
+
+
+/* The colour of the indicators */
+
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 20px !important;
+    height: 1px !important;
+}
+
+.blog .carousel-indicators .active {
+    background: #707070;
+}
+/*SCROLL BAR*/
+
+::-webkit-scrollbar {
+    width: 8px !important;
+    background-color: #e1dfe0;
+}
+
+ ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(#ecc3b6, #ede0d0);
+    background-color: #000000;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+ ::-webkit-scrollbar-track {
+    display: none;
+}
+
+/*pagina individual de projetos*/
+
+.hero-wrap .overlay-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab1/capa.jpg') center;
+}
+.hero-wrap .overlay-lab2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab2_final/capa.jpg') center;
+}
+.hero-wrap .overlay-lab2-mini {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab2_mini/capa.jpg') center;
+}
+.hero-wrap .overlay-lab3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab3/capa.jpg') center;
+}
+.hero-wrap .overlay-lab4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab4/capa.jpg') center;
+}
+.hero-wrap .overlay-lab5 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/lab5/capa.jpg') center;
+}
+.hero-wrap .overlay-projeto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/projeto/capa.jpg') center;
+}
+.hero-wrap .overlay-mm2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/mm2/capa.jpg') center;
+}
+.hero-wrap .overlay-convites{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    opacity: 0.5;
+    width: 100%;
+    background: url('../img/projetos_ind/bodas/mock.png') center;
 }
